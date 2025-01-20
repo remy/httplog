@@ -1,5 +1,5 @@
 # Use a base image that supports ARM architecture
-FROM arm64v8/node:18-bullseye-slim
+FROM node:18-bullseye-slim
 
 # Install necessary packages for Chromium
 RUN apt-get update && apt-get install -y \
